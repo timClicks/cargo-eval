@@ -19,6 +19,7 @@ keywords = [
 ]
 
 [dependencies]
+structopt = "0.3"
 tempfile = "3"
 
 [[bin]]
