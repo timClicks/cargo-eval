@@ -5,7 +5,7 @@ A cargo plugin to quickly evaluate some Rust source code.
 ## Installation
 
 ```console
-$ cargo install cargo-eval
+$ cargo install --git https://github.com/timClicks/cargo-eval.git
 ```
 
 ## Usage
