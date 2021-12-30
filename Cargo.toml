@@ -1,0 +1,26 @@
+[package]
+name = "cargo-eval"
+version = "0.1.0"
+description = "Cargo plugin to evaluate Rust at the command line"
+homepage = "https://github.com/timClicks/cargo-eval"
+repository = "https://github.com/timClicks/cargo-eval"
+authors = [
+    "Tim McNamara <code@timmcnamara.co.nz>"
+]
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+categories = [
+    "command-line-utilities",
+    "development-tools::cargo-plugins"
+]
+keywords = [
+    "cargo"
+]
+
+[dependencies]
+tempfile = "3"
+
+[[bin]]
+name = "cargo-eval"
+path = "src/main.rs"
