@@ -12,7 +12,7 @@ $ cargo install cargo-eval
 
 Provide Rust code to be compiled and executed after `--`:
 
-```console
+```
 $ cargo eval -- 1 + 1
 > 1 + 1
 2
@@ -20,7 +20,7 @@ $ cargo eval -- 1 + 1
 
 Dependencies can be specified with the `-d` (`--dep`) arguments:
 
-```console
+```
 $ cargo eval -d fastrand -- 'if fastrand::bool() {
     123 
 } else {
@@ -36,7 +36,7 @@ $ cargo eval -d fastrand -- 'if fastrand::bool() {
 
 Add the `-v`/`--verbose` flag to inspect the files from the intermediate crate that is created behind-the-scenes:
 
-```console
+```
 $ cargo eval -v -d fastrand -- 'if fastrand::bool() {
     123 
 } else {
